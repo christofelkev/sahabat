@@ -2,19 +2,7 @@
 	import Hero from '$lib/components/Hero.svelte';
 	import StatCounter from '$lib/components/StatCounter.svelte';
 	import { scrollReveal } from '$lib/actions/scrollReveal';
-
-	const productCategories = [
-		'Power Distribution',
-		'Factory Automation',
-		'Conduit',
-		'Hoists',
-		'Lighting',
-		'Electrical Tape',
-		'Power Backup',
-		'Fluid Handling',
-		'Tools & Machinery',
-		'Flooring'
-	] as const;
+	import { productCategories } from '$lib/data/products';
 </script>
 
 <svelte:head>
@@ -117,29 +105,50 @@
 		</div>
 
 		<!-- Grid — NO rounded+left-border cards (design.md P0 #5) -->
-		<div class="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-5">
+		<div class="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
 			{#each productCategories as category, i}
-				<div
-					class="border-border group border bg-white p-6 transition-all hover:-translate-y-1 hover:shadow-lg"
-					use:scrollReveal={{ delay: i * 60 }}
+				<a
+					href="/services#{category.id}"
+					class="border-border group flex flex-col justify-between border bg-white p-5 transition-all hover:-translate-y-1 hover:border-primary hover:shadow-md"
+					use:scrollReveal={{ delay: i * 50 }}
 				>
-					<p class="text-dark text-sm font-medium">{category}</p>
-				</div>
+					<div>
+						<span class="text-mid bg-surface mb-3 inline-block rounded border border-border px-2 py-0.5 font-mono text-[10px]">
+							{category.brand.split('/')[0].trim()}
+						</span>
+						<p class="text-dark text-sm font-bold group-hover:text-primary transition-colors leading-snug">
+							{category.name}
+						</p>
+					</div>
+
+					<div class="mt-4 flex items-center justify-between border-t border-border pt-3">
+						<span class="text-[11px] font-semibold text-primary">Detail</span>
+						<svg
+							class="h-3.5 w-3.5 text-mid transition-transform group-hover:translate-x-1 group-hover:text-primary"
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							stroke-width="1.8"
+						>
+							<path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+						</svg>
+					</div>
+				</a>
 			{/each}
 		</div>
 
-		<div class="mt-12 text-center" use:scrollReveal={{ delay: 400 }}>
+		<div class="mt-12 text-center" use:scrollReveal={{ delay: 350 }}>
 			<a
 				href="/services"
-				class="text-primary hover:text-primary-light inline-flex items-center gap-2 text-sm font-semibold transition-colors"
+				class="bg-primary hover:bg-primary-light inline-flex items-center gap-2 rounded px-7 py-3 text-sm font-semibold text-white transition-colors"
 			>
-				Lihat semua produk
+				Lihat Seluruh Katalog 10 Kategori
 				<svg
 					class="h-4 w-4"
 					fill="none"
 					viewBox="0 0 24 24"
 					stroke="currentColor"
-					stroke-width="1.6"
+					stroke-width="1.8"
 				>
 					<path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
 				</svg>
