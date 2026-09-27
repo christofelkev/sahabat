@@ -16,26 +16,26 @@
 	<div class="absolute inset-0">
 		<img
 			src="/hero-bg.jpg"
-			alt="Industrial warehouse facility"
-			class="h-full w-full object-cover"
+			alt="Gedung Head Office & Pergudangan PT Sahabat Indonesia Inti Mandiri"
+			class="h-full w-full object-cover object-top md:object-center"
 			loading="eager"
 			fetchpriority="high"
 		/>
-		<!-- Dark gradient overlay — NOT a purple→blue gradient (design.md P0 #2) -->
-		<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
-		</div>
+		<!-- Multi-stop dark gradient overlay (design.md P0 #2: neutral dark gradient) -->
+		<div class="absolute inset-0 bg-gradient-to-t from-black/95 via-black/55 via-45% to-black/20"></div>
+		<div class="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-transparent"></div>
 	</div>
 
 	<!-- Content -->
 	<div class="container-wide relative z-10 pb-20 md:pb-28">
 		<!-- Kicker -->
 		<p
-			class="mb-4 text-xs font-semibold tracking-[0.2em] text-white/70 uppercase transition-all duration-1000"
+			class="mb-4 text-xs font-semibold tracking-[0.2em] text-white/80 uppercase transition-all duration-1000"
 			class:opacity-100={loaded}
 			class:opacity-0={!loaded}
 			style="transition-delay: 200ms;"
 		>
-			DISTRIBUTOR RESMI KOMPONEN INDUSTRI SEJAK 1976
+			HEAD OFFICE & PERGUDANGAN MUARA KARANG, JAKARTA — SEJAK 1976
 		</p>
 
 		<!-- Headline — serif font per design.md P0 #4 -->

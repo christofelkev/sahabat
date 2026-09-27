@@ -1,10 +1,12 @@
 <script lang="ts">
+	import Logo from '$lib/components/Logo.svelte';
+
 	const currentYear = new Date().getFullYear();
 
 	const links = [
-		{ href: '/about', label: 'About' },
-		{ href: '/services', label: 'Services' },
-		{ href: '/contact', label: 'Contact' }
+		{ href: '/about', label: 'Tentang Kami' },
+		{ href: '/services', label: 'Produk & Layanan' },
+		{ href: '/contact', label: 'Kontak' }
 	] as const;
 </script>
 
@@ -13,16 +15,12 @@
 		<div class="grid gap-12 md:grid-cols-3">
 			<!-- Brand -->
 			<div>
-				<img
-					src="/logo.png"
-					alt="PT Sahabat Indonesia Inti Mandiri"
-					class="mb-4 h-10 w-auto brightness-0 invert"
-					width="160"
-					height="40"
-				/>
+				<div class="mb-4">
+					<Logo inverted={true} />
+				</div>
 				<p class="text-mid text-sm leading-relaxed">
-					Distributor Industrial Terpercaya sejak 1976. Dari power distribution hingga
-					flooring — satu pintu untuk kebutuhan engineering pabrik Anda.
+					Distributor resmi suku cadang dan komponen industri sejak 1976. Satu pintu pengadaan
+					terpadu untuk efisiensi fasilitas pabrik Anda.
 				</p>
 			</div>
 

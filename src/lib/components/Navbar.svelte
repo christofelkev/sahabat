@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { onMount } from 'svelte';
+	import Logo from '$lib/components/Logo.svelte';
 
 	let scrolled = $state(false);
 	let mobileOpen = $state(false);
@@ -30,20 +31,12 @@
 <header
 	class="fixed top-0 right-0 left-0 z-50 transition-all duration-300 {!isHome || scrolled
 		? 'bg-white shadow-sm border-b border-border'
-		: 'bg-gradient-to-b from-black/70 to-transparent'}"
+		: 'bg-gradient-to-b from-black/80 via-black/40 to-transparent'}"
 >
 	<nav class="container-wide flex items-center justify-between py-3.5 md:py-4">
 		<!-- Logo -->
-		<a href="/" class="flex items-center gap-3" onclick={closeMobile}>
-			<div class="rounded bg-white/95 px-2 py-1 shadow-xs transition-opacity hover:opacity-90">
-				<img
-					src="/logo.png"
-					alt="PT Sahabat Indonesia Inti Mandiri"
-					class="h-8 w-auto md:h-9"
-					width="140"
-					height="36"
-				/>
-			</div>
+		<a href="/" class="flex items-center gap-3 transition-opacity hover:opacity-90" onclick={closeMobile}>
+			<Logo inverted={isHome && !scrolled} />
 		</a>
 
 		<!-- Desktop Nav -->
