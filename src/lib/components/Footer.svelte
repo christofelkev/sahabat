@@ -49,12 +49,22 @@
 					Kontak
 				</h4>
 				<address class="text-mid space-y-3 text-sm not-italic leading-relaxed">
-					<p>
-						Muara Karang Selatan<br />
-						Blok A Utara No. 1<br />
-						Kawasan Industri Pergudangan<br />
-						Jakarta 14440, Indonesia
-					</p>
+					<div>
+						<p>
+							Muara Karang Selatan<br />
+							Blok A Utara No. 1<br />
+							Kawasan Industri Pergudangan<br />
+							Jakarta 14440, Indonesia
+						</p>
+						<a
+							href="https://maps.app.goo.gl/va88g56j92i9F1gf7"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="text-xs text-white/60 hover:text-white inline-flex items-center gap-1 mt-1 transition-colors"
+						>
+							<span>Lihat di Google Maps &rarr;</span>
+						</a>
+					</div>
 					<p>
 						<a href="mailto:sales@sahabatindo.com" class="hover:text-white transition-colors">
 							sales@sahabatindo.com

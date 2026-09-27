@@ -67,12 +67,24 @@
 					<p class="text-dark mb-2 font-mono text-xs font-semibold tracking-wider uppercase">
 						Alamat Kantor & Gudang
 					</p>
-					<p class="text-mid text-sm leading-relaxed">
+					<p class="text-mid text-sm leading-relaxed mb-3">
 						Muara Karang Selatan<br />
 						Blok A Utara No. 1<br />
 						Kawasan Industri Pergudangan<br />
 						Jakarta 14440, Indonesia
 					</p>
+					<a
+						href="https://maps.app.goo.gl/va88g56j92i9F1gf7"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:text-primary-light transition-colors"
+					>
+						<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+							<circle cx="12" cy="10" r="3"></circle>
+						</svg>
+						Buka di Google Maps &rarr;
+					</a>
 				</div>
 
 				<!-- Contact Details -->
@@ -145,24 +157,67 @@
 <!-- Map Section -->
 <section class="border-border border-t bg-surface py-16" data-od-id="contact-map">
 	<div class="container-wide">
-		<div class="mb-8 max-w-2xl" use:scrollReveal>
-			<p class="section-label mb-2">Peta Lokasi</p>
-			<h2 class="text-dark text-2xl font-bold md:text-3xl">Akses Pergudangan & Kantor</h2>
-			<p class="text-mid mt-2 text-sm">
-				Akses mudah untuk armada truk kontainer dan ekspedisi logistik di Kawasan Industri Pergudangan
-				Muara Karang Selatan, Jakarta Utara.
-			</p>
+		<div class="mb-8 flex flex-col md:flex-row md:items-end md:justify-between gap-4" use:scrollReveal>
+			<div class="max-w-2xl">
+				<p class="section-label mb-2">Peta Lokasi & Akses Logistik</p>
+				<h2 class="text-dark text-2xl font-bold md:text-3xl font-display">Akses Pergudangan & Kantor Pusat</h2>
+				<p class="text-mid mt-2 text-sm">
+					Kawasan Industri Pergudangan Muara Karang Selatan Blok A Utara No. 1, Jakarta Utara 14440.
+					Akses langsung armada distribusi untuk pengiriman dalam kota maupun kargo antarpulau.
+				</p>
+			</div>
+			<div>
+				<a
+					href="https://maps.app.goo.gl/va88g56j92i9F1gf7"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="inline-flex items-center gap-2 bg-dark hover:bg-black text-white px-5 py-2.5 rounded text-sm font-semibold transition-colors shadow-sm"
+				>
+					<svg class="w-4 h-4 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+						<circle cx="12" cy="10" r="3"></circle>
+					</svg>
+					Buka di Google Maps
+					<svg class="w-3.5 h-3.5 text-mid" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+						<polyline points="15 3 21 3 21 9"></polyline>
+						<line x1="10" y1="14" x2="21" y2="3"></line>
+					</svg>
+				</a>
+			</div>
 		</div>
 
 		<!-- Map Frame -->
 		<div class="border-border overflow-hidden rounded border bg-white shadow-sm" use:scrollReveal={{ delay: 100 }}>
 			<iframe
-				title="Lokasi PT Sahabat Indonesia Inti Mandiri"
-				src="https://maps.google.com/maps?q=Kawasan%20Industri%20Pergudangan%20Muara%20Karang%20Selatan%20Jakarta&t=&z=14&ie=UTF8&iwloc=&output=embed"
-				class="h-[380px] w-full border-0"
+				title="Lokasi Head Office & Gudang PT Sahabat Indonesia Inti Mandiri"
+				src="https://maps.google.com/maps?q=-6.1256442,106.7831587&hl=id&z=17&output=embed"
+				class="h-[420px] w-full border-0"
 				loading="lazy"
 				referrerpolicy="no-referrer-when-downgrade"
 			></iframe>
+
+			<!-- Bottom bar info inside map card -->
+			<div class="border-t border-border bg-white px-6 py-4 flex flex-wrap items-center justify-between gap-4 text-xs">
+				<div class="flex items-center gap-3">
+					<span class="inline-block w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+					<span class="font-medium text-dark">PT. SAHABAT INDONESIA INTI MANDIRI</span>
+					<span class="text-mid hidden sm:inline">•</span>
+					<span class="text-mid hidden sm:inline">Koordinat: -6.125644, 106.783159</span>
+				</div>
+				<a
+					href="https://maps.app.goo.gl/va88g56j92i9F1gf7"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-primary hover:text-primary-light font-semibold inline-flex items-center gap-1.5 transition-colors"
+				>
+					Petunjuk Arah & Navigasi
+					<svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M5 12h14"></path>
+						<path d="m12 5 7 7-7 7"></path>
+					</svg>
+				</a>
+			</div>
 		</div>
 	</div>
 </section>
