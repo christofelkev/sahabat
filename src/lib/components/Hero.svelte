@@ -35,7 +35,7 @@
 			class:opacity-0={!loaded}
 			style="transition-delay: 200ms;"
 		>
-			DISTRIBUTOR INDUSTRIAL SEJAK 1976
+			DISTRIBUTOR RESMI KOMPONEN INDUSTRI SEJAK 1976
 		</p>
 
 		<!-- Headline — serif font per design.md P0 #4 -->
@@ -47,7 +47,7 @@
 			class:translate-y-8={!loaded}
 			style="transition-delay: 400ms;"
 		>
-			Solusi Lengkap Kebutuhan Industri Anda
+			Solusi Pasokan Elektrikal & Mekanikal Pabrik Anda
 		</h1>
 
 		<!-- Subtitle -->
@@ -59,8 +59,8 @@
 			class:translate-y-6={!loaded}
 			style="transition-delay: 600ms;"
 		>
-			Dari power distribution hingga flooring — kami satu pintu untuk semua kebutuhan
-			engineering pabrik Anda.
+			Pasokan resmi breaker, otomasi PLC, konduit kabel, hoist, hingga penerangan industri.
+			100% suku cadang original bergaransi prinsipal, siap kirim dari gudang Jakarta.
 		</p>
 
 		<!-- CTAs -->
@@ -76,13 +76,13 @@
 				href="/services"
 				class="bg-accent hover:bg-accent-hover rounded px-7 py-3.5 text-sm font-semibold text-white transition-colors"
 			>
-				Lihat Produk Kami
+				Lihat Katalog Produk
 			</a>
 			<a
 				href="/contact"
 				class="rounded border border-white/30 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:border-white hover:bg-white/10"
 			>
-				Hubungi Sales
+				Minta Penawaran Harga
 			</a>
 		</div>
 	</div>

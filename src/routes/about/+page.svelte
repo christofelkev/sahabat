@@ -5,43 +5,43 @@
 	const milestones = [
 		{
 			year: '1976',
-			title: 'Awal Perjalanan',
-			desc: 'Didirikan di Jakarta dengan komitmen menyediakan komponen kelistrikan dan mekanikal berkualitas untuk industri manufaktur yang sedang berkembang pesat.'
+			title: 'Pendirian Usaha di Jakarta',
+			desc: 'Memulai operasional sebagai supplier komponen kelistrikan dan suku cadang mekanikal untuk industri manufaktur lokal di kawasan Jakarta dan sekitarnya.'
 		},
 		{
 			year: '1988',
-			title: 'Kemitraan Global',
-			desc: 'Menjalin kerja sama distribusi resmi dengan prinsipal global terkemuka dari Jepang dan internasional seperti Mitsubishi Electric, Panasonic, dan Iwasaki EYE.'
+			title: 'Distribusi Resmi Brand Jepang & Global',
+			desc: 'Ditunjuk sebagai distributor resmi sejumlah prinsipal global terkemuka, memperluas pasokan komponen presisi Mitsubishi Electric, Panasonic, dan Iwasaki EYE.'
 		},
 		{
 			year: '2002',
-			title: 'Sentralisasi Pergudangan',
-			desc: 'Mendirikan fasilitas kantor pusat dan kompleks pergudangan terintegrasi di Kawasan Industri Muara Karang, Jakarta untuk mempercepat rantai pasok.'
+			title: 'Kompleks Pergudangan Muara Karang',
+			desc: 'Memusatkan operasional kantor dan fasilitas pergudangan terpadu di Kawasan Industri Pergudangan Muara Karang Jakarta guna mempercepat handling dan pengiriman material.'
 		},
 		{
 			year: '2015',
-			title: 'Ekspansi 10 Kategori',
-			desc: 'Mengukuhkan posisi sebagai one-stop shop solution dengan melengkapi portofolio produk mencakup otomasi pabrik, hoist, tata udara, hingga flooring industri.'
+			title: 'Kelengkapan 10 Lini Kategori Industri',
+			desc: 'Melengkapi katalog pengadaan satu atap: mulai dari power distribution, otomasi pabrik, hoist alat angkat, hingga sistem proteksi lantai pabrik.'
 		},
 		{
-			year: 'Kini',
-			title: '50 Tahun Melayani',
-			desc: 'Diperkuat oleh lebih dari 200 profesional berdedikasi tinggi yang melayani ribuan pelanggan korporasi dan pabrik di seluruh pelosok Indonesia.'
+			year: '2026',
+			title: '50 Tahun Rekanan Industri Nasional',
+			desc: 'Didukung oleh 200+ staf logistik, teknis, dan sales yang melayani ribuan kontrak pengadaan pabrik manufaktur dan kontraktor ME di seluruh Indonesia.'
 		}
 	];
 
 	const values = [
 		{
-			title: 'Kualitas Tanpa Kompromi',
-			desc: 'Hanya menyediakan produk resmi, tersertifikasi, dan teruji di lingkungan kerja industri berat untuk memastikan kelancaran operasional fasilitas Anda.'
+			title: '100% Produk Original Bergaransi',
+			desc: 'Seluruh komponen dipasok langsung dari jalur distribusi resmi dengan sertifikat keaslian pabrik (COO/Test Report), mencegah risiko barang tiruan di fasilitas Anda.'
 		},
 		{
-			title: 'One-Stop Solution',
-			desc: 'Menyederhanakan pengadaan pabrik Anda dalam satu pintu: satu vendor tepercaya, satu proses PO, dan integrasi pengiriman yang efisien.'
+			title: 'Efisiensi Administrasi (One PO)',
+			desc: 'Satu pintu untuk ragam kebutuhan elektrikal dan mekanikal. Memangkas biaya overhead pencarian supplier dan menyederhanakan proses invoice perpajakan.'
 		},
 		{
-			title: 'Kemitraan Jangka Panjang',
-			desc: 'Kami memandang setiap klien sebagai mitra. Filosofi kami adalah memberikan pendampingan teknis dan pelayanan purnajual yang konsisten.'
+			title: 'Dukungan Teknis & Cross-Reference',
+			desc: 'Bantuan verifikasi part number, rekomendasi tipe ekuivalen untuk model yang sudah discontinue, dan kepastian spesifikasi teknis sesuai standar pabrik Anda.'
 		}
 	];
 </script>
@@ -50,12 +50,12 @@
 	<title>Tentang Kami — PT Sahabat Indonesia Inti Mandiri</title>
 	<meta
 		name="description"
-		content="Perjalanan 50 tahun PT Sahabat Indonesia Inti Mandiri sebagai distributor electrical & industrial components tepercaya di Indonesia. 200+ profesional, 10 kategori produk."
+		content="Profil 50 tahun PT Sahabat Indonesia Inti Mandiri sebagai distributor resmi suku cadang dan komponen industri di Indonesia. 200+ staf, 10 kategori produk."
 	/>
 	<meta property="og:title" content="Tentang PT Sahabat Indonesia Inti Mandiri" />
 	<meta
 		property="og:description"
-		content="Didirikan sejak 1976, PT Sahabat Indonesia Inti Mandiri telah menjadi mitra terpercaya industri Indonesia selama setengah abad."
+		content="Didirikan sejak 1976 di Jakarta, PT Sahabat Indonesia Inti Mandiri memasok kebutuhan komponen elektrikal dan mekanikal bagi ratusan pabrik industri."
 	/>
 	<link rel="canonical" href="https://sahabatindo.com/about" />
 </svelte:head>
@@ -65,14 +65,14 @@
 	<div class="container-wide">
 		<div class="max-w-3xl" use:scrollReveal>
 			<p class="section-label mb-4">Profil Perusahaan</p>
-			<h1 class="text-dark mb-6 text-4xl leading-tight md:text-5xl lg:text-6xl">
-				Lima Dekade Menopang Ketahanan Industri Indonesia
+			<h1 class="text-dark mb-6 text-4xl leading-tight md:text-5xl lg:text-6xl font-display">
+				50 Tahun Distributor Komponen Elektrikal & Mekanikal Industri
 			</h1>
 			<p class="text-mid text-lg leading-relaxed md:text-xl">
-				Sejak didirikan pada tahun 1976, PT Sahabat Indonesia Inti Mandiri telah berdedikasi
-				menjadi mitra strategis bagi sektor manufaktur, infrastruktur, dan ketenagalistrikan
-				nasional. Kami hadir untuk memastikan fasilitas produksi Anda beroperasi tanpa henti
-				dengan pasokan komponen berstandar internasional.
+				Sejak didirikan pada tahun 1976 di Jakarta, PT Sahabat Indonesia Inti Mandiri menjadi mitra
+				pengadaan terpercaya bagi pabrik manufaktur, kontraktor mekanikal-elektrikal, dan panel maker.
+				Dengan stok terkelola di Muara Karang, kami memastikan rantai pasok komponen fasilitas Anda
+				berjalan tanpa hambatan.
 			</p>
 		</div>
 	</div>
@@ -87,30 +87,30 @@
 				<p class="text-mid mt-2 text-xs font-semibold tracking-wider uppercase md:text-sm">
 					Tahun Pengalaman
 				</p>
-				<p class="text-mid mt-1 text-xs">Konsisten melayani sejak 1976</p>
+				<p class="text-mid mt-1 text-xs">Beroperasi konsisten sejak 1976</p>
 			</div>
 			<div class="text-center lg:text-left" use:scrollReveal={{ delay: 200 }}>
 				<StatCounter target={200} suffix="+" />
 				<p class="text-mid mt-2 text-xs font-semibold tracking-wider uppercase md:text-sm">
-					Karyawan Berdedikasi
+					Karyawan & Tenaga Ahli
 				</p>
-				<p class="text-mid mt-1 text-xs">Tim teknis & logistik profesional</p>
+				<p class="text-mid mt-1 text-xs">Staf logistik, sales & teknikal</p>
 			</div>
 			<div class="text-center lg:text-left" use:scrollReveal={{ delay: 300 }}>
 				<StatCounter target={10} />
 				<p class="text-mid mt-2 text-xs font-semibold tracking-wider uppercase md:text-sm">
-					Kategori Solusi
+					Lini Kategori Produk
 				</p>
-				<p class="text-mid mt-1 text-xs">Dari power distribution ke otomasi</p>
+				<p class="text-mid mt-1 text-xs">Pasokan elektrikal & mekanikal lengkap</p>
 			</div>
 			<div class="text-center lg:text-left" use:scrollReveal={{ delay: 400 }}>
 				<div class="font-mono text-5xl font-bold tabular-nums text-dark md:text-6xl">
-					1 Stop
+					1 Pintu
 				</div>
 				<p class="text-mid mt-2 text-xs font-semibold tracking-wider uppercase md:text-sm">
-					Solusi Terpadu
+					One-Stop Solution
 				</p>
-				<p class="text-mid mt-1 text-xs">Pengadaan satu atap untuk pabrik</p>
+				<p class="text-mid mt-1 text-xs">Satu PO untuk multi-kategori barang</p>
 			</div>
 		</div>
 	</div>
@@ -122,29 +122,27 @@
 		<div class="grid items-start gap-16 lg:grid-cols-12">
 			<!-- Narrative left (7 cols) -->
 			<div class="space-y-6 lg:col-span-7" use:scrollReveal>
-				<p class="section-label">Dedikasi Kami</p>
-				<h2 class="text-dark text-3xl leading-snug md:text-4xl">
-					Komitmen Penuh di Balik Setiap Komponen yang Kami Distribusikan
+				<p class="section-label">Komitmen Pasokan</p>
+				<h2 class="text-dark text-3xl leading-snug md:text-4xl font-display">
+					Memastikan Fasilitas Produksi Anda Beroperasi Tanpa Downtime
 				</h2>
 				<p class="text-mid text-base leading-relaxed md:text-lg">
-					Di dunia industri modern, setiap detik downtime dapat berdampak besar pada produktivitas
-					dan keselamatan kerja. Menyadari hal tersebut, PT Sahabat Indonesia Inti Mandiri
-					membangun rantai pasok yang tangguh dan terintegrasi dari pusat logistik kami di Muara
-					Karang, Jakarta.
+					Bagi sebuah pabrik manufaktur, keterlambatan suku cadang atau kerusakan mendadak pada panel
+					listrik dapat menghentikan seluruh lini produksi dan menimbulkan kerugian besar. Karena itu,
+					fokus utama PT Sahabat Indonesia Inti Mandiri adalah kecepatan respon dan ketersediaan barang.
 				</p>
 				<p class="text-mid text-base leading-relaxed md:text-lg">
-					Lebih dari sekadar penjual produk, kami bertindak sebagai konsultan tepercaya yang
-					membantu tim engineering memilih spesifikasi yang tepat untuk kebutuhan power
-					distribution, proteksi beban, sistem otomasi pabrik, hingga perlengkapan maintenance
-					fasilitas.
+					Melalui fasilitas pergudangan di Muara Karang Jakarta, kami menjaga buffer stok untuk berbagai
+					komponen penting: dari circuit breaker berdaya besar, PLC dan inverter otomasi, pipa konduit
+					pelindung kabel, unit hoist angkat berat, hingga pelapis lantai epoxy pabrik.
 				</p>
 			</div>
 
-			<!-- Pull-Quote Box right (5 cols) — Soul element -->
+			<!-- Pull-Quote Box right (5 cols) -->
 			<div class="lg:col-span-5" use:scrollReveal={{ delay: 200 }}>
 				<div class="bg-dark p-8 text-white md:p-10">
 					<p class="text-accent mb-6 font-mono text-xs font-bold tracking-widest uppercase">
-						Filosofi Perusahaan
+						Filosofi Manajemen
 					</p>
 					<blockquote class="border-accent/40 border-l-2 pl-6 italic">
 						<p class="text-xl leading-relaxed md:text-2xl font-display">
@@ -153,8 +151,8 @@
 						</p>
 					</blockquote>
 					<p class="text-light mt-6 text-sm leading-relaxed">
-						Keyakinan mendasar bahwa keterbatasan individu dapat dilebur menjadi kekuatan tanpa batas
-						melalui kerja sama yang tulus dan dedikasi penuh bagi para mitra usaha kami.
+						Prinsip kerja yang diwariskan pendiri perusahaan: dedikasi seluruh tim untuk terus
+						memberikan layanan terbaik, mengatasi setiap kendala pengadaan pelanggan dengan kerja nyata.
 					</p>
 				</div>
 			</div>
@@ -162,12 +160,12 @@
 	</div>
 </section>
 
-<!-- Vision & Mission — PRD 2-column with vertical divider (no rounded card with left-border) -->
+<!-- Vision & Mission -->
 <section class="section-padding border-border border-t bg-white" data-od-id="about-vision-mission">
 	<div class="container-wide">
 		<div class="mb-16 text-center" use:scrollReveal>
-			<p class="section-label mb-4">Arah & Tujuan</p>
-			<h2 class="text-dark text-3xl md:text-4xl">Visi dan Misi Kami</h2>
+			<p class="section-label mb-4">Arah & Sasaran</p>
+			<h2 class="text-dark text-3xl md:text-4xl font-display">Visi dan Misi Perusahaan</h2>
 		</div>
 
 		<div class="grid gap-12 md:grid-cols-2 md:gap-16">
@@ -180,13 +178,12 @@
 					"To give customers a one stop shop solution providing high quality products."
 				</p>
 				<p class="text-mid text-base leading-relaxed">
-					Menjadi pusat rujukan utama dan mitra pengadaan terlengkap di Indonesia bagi seluruh
-					kebutuhan industri kelistrikan, otomatisasi, dan mekanikal dengan jaminan produk asli dan
-					bermutu tinggi.
+					Menjadi pusat rujukan utama dan distributor terlengkap di Indonesia bagi seluruh pengadaan
+					peralatan kelistrikan, otomatisasi, dan mekanikal pabrik dengan standar kualitas original.
 				</p>
 			</div>
 
-			<!-- Mission (Divider vertikal pada desktop) -->
+			<!-- Mission -->
 			<div class="space-y-4 md:border-border md:border-l md:pl-16" use:scrollReveal={{ delay: 200 }}>
 				<div class="border-primary inline-block border-b-2 pb-2">
 					<h3 class="text-dark text-xl font-bold tracking-tight uppercase">Misi</h3>
@@ -195,9 +192,8 @@
 					"Ensuring the best service and convenience for our customers."
 				</p>
 				<p class="text-mid text-base leading-relaxed">
-					Memberikan pengalaman transaksi yang mulus, responsif, dan terpercaya melalui layanan
-					konsultasi ahli, ketersediaan stok yang konsisten, serta pengiriman yang tepat waktu demi
-					kenyamanan maksimal pelanggan.
+					Menghadirkan kenyamanan transaksi melalui penawaran harga cepat, kepastian jadwal kirim,
+					dokumen legalitas lengkap, dan asistensi teknis yang solutif.
 				</p>
 			</div>
 		</div>
@@ -208,11 +204,11 @@
 <section class="section-padding bg-surface" data-od-id="about-milestones">
 	<div class="container-wide">
 		<div class="mb-16 max-w-2xl" use:scrollReveal>
-			<p class="section-label mb-4">Jejak Langkah</p>
-			<h2 class="text-dark text-3xl md:text-4xl">Perjalanan Setengah Abad</h2>
+			<p class="section-label mb-4">Linimasa 5 Dekade</p>
+			<h2 class="text-dark text-3xl md:text-4xl font-display">Jejak Pertumbuhan Sejak 1976</h2>
 			<p class="text-mid mt-4 text-base leading-relaxed">
-				Lima puluh tahun membangun reputasi dan menjaga kepercayaan para pelaku industri dari
-				generasi ke generasi.
+				Tahapan perkembangan dan ekspansi jaringan distribusi PT Sahabat Indonesia Inti Mandiri dalam
+				melayani kebutuhan industri nasional.
 			</p>
 		</div>
 
@@ -220,17 +216,17 @@
 			{#each milestones as item, idx}
 				<div
 					class="border-border grid items-baseline gap-6 border-b pb-8 md:grid-cols-12"
-					use:scrollReveal={{ delay: idx * 80 }}
+					use:scrollReveal={{ delay: idx * 70 }}
 				>
 					<div class="md:col-span-3">
 						<span class="font-mono text-3xl font-bold text-primary md:text-4xl">
 							{item.year}
 						</span>
 					</div>
-					<div class="md:col-span-3">
+					<div class="md:col-span-4">
 						<h3 class="text-dark text-lg font-bold">{item.title}</h3>
 					</div>
-					<div class="md:col-span-6">
+					<div class="md:col-span-5">
 						<p class="text-mid text-base leading-relaxed">{item.desc}</p>
 					</div>
 				</div>
@@ -243,14 +239,14 @@
 <section class="section-padding bg-white" data-od-id="about-values">
 	<div class="container-wide">
 		<div class="mb-16 text-center" use:scrollReveal>
-			<p class="section-label mb-4">Prinsip Kami</p>
-			<h2 class="text-dark text-3xl md:text-4xl">Pondasi Kepercayaan Klien</h2>
+			<p class="section-label mb-4">Nilai Kemitraan</p>
+			<h2 class="text-dark text-3xl md:text-4xl font-display">Mengapa Klien Memilih Kami</h2>
 		</div>
 
 		<div class="grid gap-8 md:grid-cols-3">
 			{#each values as val, idx}
 				<div
-					class="border-border border bg-surface p-8 transition-all hover:-translate-y-1 hover:shadow-md"
+					class="border-border border bg-surface p-8 transition-all hover:-translate-y-1 hover:border-primary hover:shadow-md"
 					use:scrollReveal={{ delay: idx * 100 }}
 				>
 					<div class="text-primary mb-4 font-mono text-sm font-bold">
@@ -267,25 +263,25 @@
 <!-- Call to Action -->
 <section class="section-padding bg-surface-alt" data-od-id="about-cta">
 	<div class="container-wide text-center" use:scrollReveal>
-		<h2 class="text-dark mb-4 text-3xl md:text-4xl">
-			Siap Menjadi Mitra Industri Anda
+		<h2 class="text-dark mb-4 text-3xl md:text-4xl font-display">
+			Mulai Konsultasi Pengadaan Pabrik Anda
 		</h2>
 		<p class="text-mid mx-auto mb-8 max-w-xl text-lg">
-			Hubungi tim sales kami untuk mendiskusikan kebutuhan spesifikasi teknis dan ketersediaan pasokan
-			proyek Anda.
+			Hubungi staf sales engineering kami untuk mengecek ketersediaan stok, diskon volume proyek, atau
+			permintaan jadwal pengiriman berkala.
 		</p>
 		<div class="flex flex-wrap items-center justify-center gap-4">
 			<a
 				href="/contact"
 				class="bg-primary hover:bg-primary-light inline-block rounded px-8 py-4 text-sm font-semibold text-white transition-colors"
 			>
-				Hubungi Tim Kami
+				Hubungi Tim Sales
 			</a>
 			<a
 				href="/services"
 				class="border-border hover:border-dark inline-block rounded border bg-white px-8 py-4 text-sm font-semibold text-dark transition-colors"
 			>
-				Lihat Solusi Produk
+				Lihat 10 Kategori Produk
 			</a>
 		</div>
 	</div>

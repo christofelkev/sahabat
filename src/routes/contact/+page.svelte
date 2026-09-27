@@ -36,17 +36,16 @@
 	<link rel="canonical" href="https://sahabatindo.com/contact" />
 </svelte:head>
 
-<!-- Hero / Intro -->
 <section class="section-padding bg-surface pt-32 lg:pt-40" data-od-id="contact-hero">
 	<div class="container-wide">
 		<div class="max-w-3xl" use:scrollReveal>
 			<p class="section-label mb-4">Pusat Layanan & Kantor</p>
-			<h1 class="text-dark mb-6 text-4xl leading-tight md:text-5xl lg:text-6xl">
-				Siap Membantu Kebutuhan Engineering Pabrik Anda
+			<h1 class="text-dark mb-6 text-4xl leading-tight md:text-5xl lg:text-6xl font-display">
+				Hubungi Tim Sales Engineering Kami
 			</h1>
 			<p class="text-mid text-lg leading-relaxed md:text-xl">
-				Hubungi tim sales engineering kami untuk permintaan harga, verifikasi spesifikasi teknis,
-				jadwal kunjungan teknis lapangan, atau kunjungi kantor pusat kami di Muara Karang, Jakarta.
+				Konsultasikan kebutuhan spesifikasi teknis, pengecekan stok aktual di gudang, atau kirimkan
+				daftar BoQ proyek Anda untuk mendapatkan penawaran harga resmi dalam 1x24 jam kerja.
 			</p>
 		</div>
 	</div>
