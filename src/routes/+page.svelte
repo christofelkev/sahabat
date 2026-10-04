@@ -6,18 +6,18 @@
 </script>
 
 <svelte:head>
-	<title>PT Sahabat Indonesia Inti Mandiri — Distributor Komponen Industri Jakarta</title>
+	<title>PT Sahabat Indonesia Inti Mandiri — Distributor Komponen Industri & Elektrikal Jakarta</title>
 	<meta
 		name="description"
-		content="Distributor resmi komponen elektrikal dan mekanikal industri di Jakarta sejak 1976. Power distribution, factory automation, conduit, hoist, lighting, dan perlengkapan pabrik."
+		content="Distributor resmi komponen elektrikal, otomasi PLC, konduit baja, hoist, dan lampu industri di Jakarta sejak 1976. Stok siap kirim dari gudang Muara Karang, jaminan 100% produk original, dan faktur pajak resmi PKP."
 	/>
 	<meta
 		property="og:title"
-		content="PT Sahabat Indonesia Inti Mandiri — Distributor Industri Jakarta"
+		content="PT Sahabat Indonesia Inti Mandiri — Distributor Komponen Industri Jakarta"
 	/>
 	<meta
 		property="og:description"
-		content="Satu pintu pengadaan komponen industri: breaker, PLC, konduit, hoist, hingga flooring. 200+ tenaga profesional, 50 tahun pengalaman."
+		content="Satu pintu pengadaan komponen industri: breaker ACB/MCCB, PLC, pipa konduit, hoist Nitchi, lampu Iwasaki. 200+ karyawan, 50 tahun pengalaman sejak 1976."
 	/>
 	<link rel="canonical" href="https://sahabatindo.com/" />
 </svelte:head>
@@ -31,14 +31,15 @@
 		<div class="grid items-center gap-16 lg:grid-cols-5">
 			<!-- Text (3/5) -->
 			<div class="lg:col-span-3" use:scrollReveal>
-				<p class="section-label mb-4">Profil Distributor</p>
-				<h2 class="text-dark mb-6 text-3xl md:text-4xl lg:text-5xl">
-					50 Tahun Menjaga Kelancaran Operasional Pabrik Indonesia
+				<p class="section-label mb-4">Tentang Perusahaan</p>
+				<h2 class="text-dark mb-6 text-3xl md:text-4xl lg:text-5xl font-display">
+					50 Tahun Melayani Pengadaan Komponen Pabrik & Proyek ME
 				</h2>
 				<p class="text-mid mb-8 max-w-xl text-lg leading-relaxed">
-					Didirikan pada tahun 1976 di Jakarta, PT Sahabat Indonesia Inti Mandiri memasok suku cadang
-					elektrikal dan mekanikal orisinal untuk pabrik manufaktur, kontraktor ME, dan panel maker.
-					Kami membantu tim purchasing menekan risiko downtime produksi lewat pasokan barang yang pasti.
+					Berdiri sejak tahun 1976 di Jakarta, PT Sahabat Indonesia Inti Mandiri adalah distributor dan
+					supplier resmi komponen elektrikal, mekanikal, dan otomasi industri. Kami melayani kebutuhan
+					pengadaan rutin pabrik manufaktur, kontraktor ME, perakit panel (panel maker), serta proyek
+					infrastruktur di seluruh Indonesia dengan jaminan keaslian barang dan ketepatan jadwal kirim.
 				</p>
 
 				<!-- Pull quote — authentic founder philosophy -->
@@ -47,6 +48,9 @@
 						"We are limited. Company could be unlimited.<br />
 						Let's dedicate our limited to achieve company's unlimited."
 					</p>
+					<span class="text-mid not-italic text-xs font-semibold tracking-wider uppercase block mt-2">
+						— Motto PT Sahabat Indonesia Inti Mandiri
+					</span>
 				</blockquote>
 			</div>
 
@@ -55,7 +59,7 @@
 				<div class="text-center lg:text-left" use:scrollReveal={{ delay: 200 }}>
 					<StatCounter target={200} suffix="+" />
 					<p class="text-mid mt-2 text-sm font-medium tracking-wider uppercase">
-						Karyawan & Tim Logistik
+						Karyawan & Tim Operasional
 					</p>
 				</div>
 				<div class="text-center lg:text-left" use:scrollReveal={{ delay: 400 }}>
@@ -78,8 +82,7 @@
 					"To give customers a one stop shop solution providing high quality products."
 				</p>
 				<p class="text-mid mt-2 text-sm leading-relaxed">
-					Menjadi mitra pengadaan terpadu di Indonesia untuk seluruh kebutuhan suku cadang pabrik
-					dengan jaminan barang asli.
+					Menjadi mitra pengadaan terpadu di Indonesia untuk pasokan suku cadang dan peralatan industri berkualitas tinggi dari prinsipal resmi.
 				</p>
 			</div>
 			<div class="border-border md:border-l md:pl-12">
@@ -88,8 +91,7 @@
 					"Ensuring the best service and convenience for our customers."
 				</p>
 				<p class="text-mid mt-2 text-sm leading-relaxed">
-					Memberikan kemudahan transaksi lewat respon cepat penawaran harga, ketersediaan stok, dan
-					pengiriman tepat waktu.
+					Memberikan kemudahan transaksi melalui respon quotation cepat, kepastian stok aktual di gudang, dan ketepatan pengiriman barang.
 				</p>
 			</div>
 		</div>
@@ -100,13 +102,12 @@
 <section class="section-padding" data-od-id="products-preview">
 	<div class="container-wide">
 		<div class="mb-12 text-center" use:scrollReveal>
-			<p class="section-label mb-4">Katalog Komponen</p>
-			<h2 class="text-dark mb-4 text-3xl md:text-4xl lg:text-5xl">
-				10 Kategori Kebutuhan Pabrik dalam 1 Pintu
+			<p class="section-label mb-4">Katalog Produk</p>
+			<h2 class="text-dark mb-4 text-3xl md:text-4xl lg:text-5xl font-display">
+				10 Kategori Komponen Industri dalam Satu Pintu
 			</h2>
 			<p class="text-mid mx-auto max-w-2xl text-lg">
-				Distributor resmi berbagai brand manufaktur kelas dunia. Seluruh unit dijamin orisinal
-				lengkap dengan sertifikasi standar industri.
+				Distributor resmi brand Jepang dan internasional terkemuka. Seluruh produk original bergaransi pabrik dengan dukungan dokumen teknis lengkap.
 			</p>
 		</div>
 
@@ -141,7 +142,7 @@
 						</p>
 
 						<div class="border-border mt-3 flex items-center justify-between border-t pt-2.5">
-							<span class="text-[11px] font-bold tracking-wider text-primary uppercase">Cek Produk</span>
+							<span class="text-[11px] font-bold tracking-wider text-primary uppercase">Lihat Spesifikasi</span>
 							<svg
 								class="text-mid h-3.5 w-3.5 transition-transform group-hover:translate-x-1 group-hover:text-primary"
 								fill="none"
@@ -186,35 +187,31 @@
 				Keunggulan Rekanan
 			</p>
 			<h2 class="mb-6 text-3xl leading-snug md:text-4xl lg:text-5xl font-display">
-				Kecepatan Pasokan, Efisiensi Pengadaan Satu Pintu.
+				Kemudahan Pengadaan Komponen dalam Satu Rekanan Resmi
 			</h2>
 			<p class="text-light max-w-xl text-lg leading-relaxed">
-				Fokus kami adalah mempermudah pekerjaan tim purchasing dan maintenance: harga bersaing,
-				katalog lengkap, dan pengiriman terkoordinasi langsung ke pabrik Anda.
+				Menyederhanakan alur kerja tim purchasing dan engineering: kepastian stok fisik di gudang, legalitas transaksi yang tertib, dan dukungan teknis pemilihan part number.
 			</p>
 		</div>
 
 		<!-- 3 Pillars -->
 		<div class="grid gap-8 md:grid-cols-3">
 			<div class="border-t border-white/20 pt-8" use:scrollReveal={{ delay: 100 }}>
-				<h3 class="mb-3 text-lg font-bold">Satu Vendor, Satu Faktur Pajak</h3>
+				<h3 class="mb-3 text-lg font-bold">Legalitas PKP & e-Faktur Resmi</h3>
 				<p class="text-light text-sm leading-relaxed">
-					Tidak perlu mengelola puluhan supplier terpisah. Gabungkan pesanan elektrikal dan mekanikal
-					dalam satu PO terpadu dengan kelengkapan e-Faktur PPN resmi.
+					Beroperasi resmi sebagai Pengusaha Kena Pajak (PKP). Seluruh transaksi dilengkapi dokumen Faktur Pajak elektronik (e-Faktur PPN), surat jalan, dan invoice resmi untuk tertib audit perusahaan Anda.
 				</p>
 			</div>
 			<div class="border-t border-white/20 pt-8" use:scrollReveal={{ delay: 200 }}>
-				<h3 class="mb-3 text-lg font-bold">100% Suku Cadang Original</h3>
+				<h3 class="mb-3 text-lg font-bold">100% Produk Original Bergaransi</h3>
 				<p class="text-light text-sm leading-relaxed">
-					Distribusi resmi brand Jepang dan internasional terkemuka seperti Mitsubishi Electric,
-					Panasonic, Iwasaki EYE, Nitchi, Shinmaywa, dan Unibell.
+					Jaminan produk asli langsung dari jalur keagenan resmi Mitsubishi Electric, Panasonic, Iwasaki EYE, Nitchi, Shinmaywa, dan Unibell, lengkap dengan sertifikat keaslian (COO) bila dipersyaratkan.
 				</p>
 			</div>
 			<div class="border-t border-white/20 pt-8" use:scrollReveal={{ delay: 300 }}>
-				<h3 class="mb-3 text-lg font-bold">Gudang Siap Kirim Jakarta</h3>
+				<h3 class="mb-3 text-lg font-bold">Gudang Siap Kirim di Muara Karang</h3>
 				<p class="text-light text-sm leading-relaxed">
-					Fasilitas pergudangan strategis di Kawasan Industri Muara Karang Jakarta menjamin kesiapan
-					stok dan armada kirim reguler ke Jabodetabek maupun antarpulau.
+					Buffer stock di Kawasan Industri Pergudangan Muara Karang Jakarta menjamin kesiapan pengiriman cepat ke kawasan industri Jabodetabek, ekspedisi luar kota, maupun pengambilan mandiri (self pick-up).
 				</p>
 			</div>
 		</div>
@@ -225,11 +222,10 @@
 <section class="section-padding bg-surface-alt" data-od-id="cta">
 	<div class="container-wide text-center" use:scrollReveal>
 		<h2 class="text-dark mb-4 text-3xl md:text-4xl font-display">
-			Butuh Penawaran Resmi atau Ketersediaan Stok?
+			Kirimkan Daftar Kebutuhan (BoQ) Proyek Anda
 		</h2>
 		<p class="text-mid mx-auto mb-8 max-w-xl text-lg">
-			Kirimkan daftar BoQ atau part number yang Anda perlukan. Tim sales engineering kami akan
-			merespons dengan penawaran harga resmi dalam 1x24 jam kerja.
+			Kirimkan daftar BoQ atau part number yang Anda cari. Tim sales engineering kami akan memeriksa stok aktual di gudang dan mengirimkan penawaran harga resmi (official quotation) dalam 1x24 jam kerja.
 		</p>
 		<div class="flex flex-wrap items-center justify-center gap-4">
 			<a

@@ -16,11 +16,22 @@ export const productCategories: ProductCategory[] = [
 		name: 'Power Distribution Components',
 		brand: 'Mitsubishi Electric / Panasonic',
 		image: '/products/power-distribution.jpg',
-		shortDesc: 'Pemutus arus, kontaktor, dan proteksi beban listrik tegangan rendah & menengah.',
+		shortDesc: 'Circuit breaker, kontaktor magnetik, dan proteksi beban listrik tegangan rendah.',
 		description:
-			'Pasokan resmi breaker dan kontaktor industri untuk panel utama (MDB) dan sub-panel. Menjamin proteksi sirkuit listrik dari beban lebih, korsleting, dan downtime operasional.',
-		applications: ['Panel Distribusi Utama (MDB)', 'Sub-Distribution Board', 'Proteksi Motor Pabrik', 'Gardu Listrik Fasilitas'],
-		items: ['Air Circuit Breaker (ACB)', 'Molded Case Circuit Breaker (MCCB)', 'Magnetic Contactor', 'Thermal Overload Relay', 'Miniature Circuit Breaker (MCB)'],
+			'Distributor resmi komponen panel listrik industri untuk Main Distribution Panel (MDP) dan Sub-Panel. Menyediakan Air Circuit Breaker, MCCB seri WS-V, MCB, serta kontaktor magnetik dan overload relay berstandar IEC/JIS.',
+		applications: [
+			'Main Distribution Panel (MDP / LVMDP)',
+			'Sub-Distribution Panel Pabrik & Gedung',
+			'Panel Kontrol Motor (Motor Control Center / MCC)',
+			'Proteksi Sirkuit Gardu Trafo Fasilitas'
+		],
+		items: [
+			'Air Circuit Breaker (ACB) — seri 3P/4P drawout & fixed',
+			'Molded Case Circuit Breaker (MCCB) — 16A hingga 1600A',
+			'Magnetic Contactor & Thermal Overload Relay',
+			'Miniature Circuit Breaker (MCB) 1P/2P/3P standar IEC',
+			'Earth Leakage Circuit Breaker (ELCB / RCCB)'
+		],
 		iconName: 'power'
 	},
 	{
@@ -28,11 +39,22 @@ export const productCategories: ProductCategory[] = [
 		name: 'Factory Automation',
 		brand: 'Mitsubishi Electric',
 		image: '/products/factory-automation.jpg',
-		shortDesc: 'PLC, inverter drive (VFD), HMI touchscreen, dan servo drive terintegrasi.',
+		shortDesc: 'PLC controller, Inverter (VFD), layar HMI GOT, dan servo system.',
 		description:
-			'Solusi kendali otomatis untuk efisiensi jalur perakitan, mesin packaging, dan conveyor. Ketersediaan unit controller dan suku cadang asli bergaransi resmi prinsipal.',
-		applications: ['Mesin Produksi Otomatis', 'Packaging & Bottling Line', 'Sistem Conveyor', 'Panel Kontrol Mesin (OEM)'],
-		items: ['Programmable Logic Controller (PLC)', 'Human Machine Interface (HMI)', 'Variable Frequency Drive (Inverter VFD)', 'AC Servo Motor & Drive'],
+			'Perangkat otomatisasi mesin industri dari lini Mitsubishi Electric MELSEC series. Mendukung kebutuhan perakitan mesin baru (OEM), upgrade sistem kontrol, maupun penggantian unit kontrol lama yang rusak.',
+		applications: [
+			'Sistem Otomasi Jalur Produksi & Perakitan',
+			'Mesin Packaging, Filling & Labeling',
+			'Pengendali Kecepatan Conveyor Pabrik',
+			'Panel Kontrol Mesin Industri & OEM'
+		],
+		items: [
+			'PLC Controller (MELSEC iQ-F / FX5U, FX3U, Q Series)',
+			'Inverter Variable Frequency Drive (FR-E800, FR-A800, FR-D700)',
+			'Human Machine Interface (HMI GOT2000 Series)',
+			'AC Servo Motor & Servo Amplifier (MELSERVO MR-J4/J5)',
+			'Modul Ekspansi I/O, Analog & Komunikasi Ethernet/CC-Link'
+		],
 		iconName: 'automation'
 	},
 	{
@@ -40,11 +62,22 @@ export const productCategories: ProductCategory[] = [
 		name: 'Conduit & Cable Management',
 		brand: 'Panasonic',
 		image: '/products/conduit.jpg',
-		shortDesc: 'Pipa konduit baja galvanis, pipa fleksibel, dan aksesoris pelindung kabel.',
+		shortDesc: 'Pipa konduit baja galvanis, fleksibel metal, dan aksesoris fitting JIS/ANSI.',
 		description:
-			'Jalur proteksi kabel standar JIS/ANSI tahan benturan fisik, paparan korosi, dan suhu tinggi. Digunakan luas pada instalasi pabrik, gedung komersial, dan fasilitas industri berat.',
-		applications: ['Instalasi Kabel Pabrik', 'Ruang Mekanikal & Elektrikal', 'Area Luar Ruang & Korosif', 'Fasilitas Manufaktur Berat'],
-		items: ['Steel Conduit (EMT / IMC / RSC)', 'Flexible Conduit Metal & PVC', 'Coupling & Connector Fitting', 'Junction Box & Pull Box Besi'],
+			'Pipa pelindung kabel baja berstandar JIS C 8305 dan ANSI C80.1 untuk instalasi listrik pabrik dan gedung bertingkat. Melindungi kabel dari benturan fisik, gigitan hama, percikan api, dan paparan kimia.',
+		applications: [
+			'Instalasi Kabel Tenaga & Kontrol Pabrik',
+			'Jalur Kabel Ruang Mekanikal & Genset',
+			'Area Terbuka / Outdoor Tahan Cuaca',
+			'Gedung Komersial, Rumah Sakit & Fasilitas Publik'
+		],
+		items: [
+			'Pipa Konduit Baja Galvanis EMT (Electro Metal Tubing)',
+			'Pipa Konduit Baja Tebal IMC & RSC (Rigid Steel Conduit)',
+			'Flexible Metal Conduit (Polos & Dilapisi Vinyl Waterproof)',
+			'Aksesoris Fitting: Coupling, Connector, Elbow, Saddle Clamp',
+			'Cast Iron Junction Box & Universal Pull Box'
+		],
 		iconName: 'conduit'
 	},
 	{
@@ -54,9 +87,20 @@ export const productCategories: ProductCategory[] = [
 		image: '/products/hoists.jpg',
 		shortDesc: 'Electric chain hoist, manual chain block, dan lever hoist buatan Jepang.',
 		description:
-			'Alat angkat beban berat berstandar keselamatan tinggi untuk bengkel fabrikasi, galangan, dan area pergudangan. Tersedia kapasitas beban dari 0.5 ton hingga puluhan ton.',
-		applications: ['Overhead Crane & Gantry', 'Workshop Fabrikasi Logam', 'Bongkar Muat Gudang Logistik', 'Maintenance Bay Mesin'],
-		items: ['Electric Chain Hoist', 'Manual Chain Block', 'Lever Block (Ratchet Hoist)', 'Trolley Bermotor & Manual Plain'],
+			'Peralatan angkat material heavy-duty buatan Nitchi Co., Ltd. Jepang dengan sertifikasi uji beban. Tersedia unit electric hoist 3-phase, manual chain block untuk area tanpa listrik, serta troli gantry rel.',
+		applications: [
+			'Overhead Crane Pabrik & Gudang',
+			'Bengkel Fabrikasi Logam & Workshop Mesin',
+			'Area Bongkar Muat Barang (Loading Dock)',
+			'Maintenance Bay Alat Berat & Ruang Turbin'
+		],
+		items: [
+			'Electric Chain Hoist Nitchi seri EC-4 (0.5 ton – 10 ton)',
+			'Manual Chain Block Nitchi seri H-50 (0.5 ton – 20 ton)',
+			'Lever Block / Ratchet Hoist seri RB-5 (0.8 ton – 6.3 ton)',
+			'Motorized Trolley & Geared / Plain Push Trolley',
+			'Spare Part Original: Rantai Angkat Grade 80, Rem & Hook Asli'
+		],
 		iconName: 'hoist'
 	},
 	{
@@ -64,11 +108,22 @@ export const productCategories: ProductCategory[] = [
 		name: 'Industrial Lighting',
 		brand: 'Iwasaki EYE',
 		image: '/products/lighting.jpg',
-		shortDesc: 'Lampu LED high bay, floodlight sorot, dan lampu tahan ledakan (explosion proof).',
+		shortDesc: 'Lampu LED high bay, floodlight sorot outdoor, dan lampu explosion-proof.',
 		description:
-			'Lampu industri hemat energi dengan durabilitas tinggi terhadap getaran dan panas pabrik. Dirancang untuk pencahayaan merata di area produksi berplafon tinggi serta area berbahaya.',
-		applications: ['Plafon Pabrik & Gudang Tinggi', 'Area Kilang & Pabrik Kimia', 'Penerangan Pelabuhan & Lapangan', 'Lampu Sorot Perimeter'],
-		items: ['LED High Bay Light', 'Heavy-Duty Floodlight Sorot', 'Explosion-Proof Fixture', 'Street & Perimeter Luminaire'],
+			'Armatur lampu industri hemat energi buatan Iwasaki Electric (EYE Lighting) Jepang dengan housing kokoh tahan getaran mesin, panas plafon, dan debu pabrik (rating IP65/IP66).',
+		applications: [
+			'Penerangan Area Produksi & Plafon Gudang Tinggi (High Bay)',
+			'Lampu Sorot Lapangan Penumpukan, Parkir & Pelabuhan',
+			'Zona Berbahaya Kilang Minyak, Gas & Bahan Kimia',
+			'Penerangan Jalan Akses Kawasan Industri'
+		],
+		items: [
+			'LED High Bay Luminaire (100W – 400W hemat daya)',
+			'Heavy-Duty Floodlight Sorot Proyek & Lapangan',
+			'Explosion-Proof Lighting Fixture (Zone 1 & Zone 2)',
+			'Lampu Koridor & Emergency Exit Industri',
+			'Lampu Khusus Pabrik Suhu Ekstrem & Tahan Getaran'
+		],
 		iconName: 'lighting'
 	},
 	{
@@ -76,11 +131,22 @@ export const productCategories: ProductCategory[] = [
 		name: 'Electrical Tape & Insulation',
 		brand: 'Unibell',
 		image: '/products/electrical-tape.jpg',
-		shortDesc: 'Pita isolasi listrik vinyl PVC, rubber splicing tape, dan pelindung kabel.',
+		shortDesc: 'Pita isolasi listrik PVC vinyl tebal, rubber splicing tape, dan mastic tape.',
 		description:
-			'Solusi sambungan kabel dengan daya rekat tinggi, ketahanan dielektrik kuat, dan tahan cuaca serta kelembapan. Cocok untuk instalasi tegangan rendah maupun menengah.',
-		applications: ['Penyambungan Kabel (Splicing)', 'Perbaikan Motor & Trafo', 'Bundling & Harness Panel', 'Isolasi Kedap Air'],
-		items: ['PVC Electrical Insulation Tape', 'High Voltage Rubber Splicing Tape', 'Mastic Sealant Kedap Air', 'Color Coding Tape Panel'],
+			'Pita isolator listrik dengan daya rekat stabil, elastisitas tinggi, dan ketahanan dielektrik hingga 600V–69kV. Tidak mudah getas pada suhu ruang mesin dan tahan kelembapan tropis.',
+		applications: [
+			'Penyambungan & Pembungkus Sambungan Kabel Motor',
+			'Penataan / Harness Kabel di Dalam Box Panel Listrik',
+			'Isolasi Kedap Air untuk Sambungan Bawah Tanah & Luar Ruang',
+			'Kode Warna Phase Panel (R-S-T-N)'
+		],
+		items: [
+			'PVC Electrical Insulation Tape (Hitam & Aneka Warna Kode Fasa)',
+			'High Voltage Rubber Splicing Tape (Pita Karet Isolasi Tegangan Tinggi)',
+			'Waterproof Mastic Sealant Tape (Peredam Bocor & Korosi)',
+			'Semi-Conducting Tape & Heat-Resistant Glass Cloth Tape',
+			'Liquid Insulation Sealant & Cable Pulling Lubricant'
+		],
 		iconName: 'tape'
 	},
 	{
@@ -88,11 +154,22 @@ export const productCategories: ProductCategory[] = [
 		name: 'Power Backup System',
 		brand: 'Shinmaywa & Industrial Grade',
 		image: '/products/power-backup.jpg',
-		shortDesc: 'Genset industri diesel, UPS online kontinuitas tinggi, dan automatic transfer switch.',
+		shortDesc: 'Genset diesel kapasitas besar, online UPS continuous, dan panel ATS/AMF.',
 		description:
-			'Menjaga fasilitas vital pabrik tetap beroperasi saat pemadaman mendadak. Mencegah kerugian batch produksi gagal, kerusakan motor, dan kehilangan data pada control center.',
-		applications: ['Data Server & Control Room', 'Pompa Hydrant Pemadam', 'Lini Produksi Kontinu 24/7', 'Rumah Sakit & Laboratorium'],
-		items: ['Industrial Diesel Genset', 'Online Double-Conversion UPS', 'Automatic Transfer Switch (ATS Panel)', 'Industrial Battery Bank & Charger'],
+			'Sistem catu daya darurat untuk mencegah kerugian downtime mesin saat pasokan listrik PLN terputus. Melindungi sistem kontrol otomasi, server data pabrik, dan instalasi penerangan darurat.',
+		applications: [
+			'Ruang Kontrol Utama (Control Room) & Server Data',
+			'Pompa Pemadam Kebakaran (Hydrant Fire Pump)',
+			'Mesin Produksi dengan Siklus Pendinginan Kontinu',
+			'Fasilitas Uji Mutu & Laboratorium Pabrik'
+		],
+		items: [
+			'Genset Diesel Silent & Open Type (Kapasitas 10 kVA – 2000 kVA)',
+			'Online Double Conversion Industrial UPS 3-Phase',
+			'Panel Otomatis Transfer Listrik (ATS / AMF Panel)',
+			'Industrial Battery Bank (VRLA / Ni-Cd) & Smart Charger',
+			'Spare Part Filter & Komponen Pemeliharaan Rutin Genset'
+		],
 		iconName: 'backup'
 	},
 	{
@@ -102,9 +179,20 @@ export const productCategories: ProductCategory[] = [
 		image: '/products/fluid-air.jpg',
 		shortDesc: 'Blower sentrifugal, exhaust fan industri, kompresor udara, dan sistem pneumatik.',
 		description:
-			'Peralatan sirkulasi udara bersih, pembuangan panas mesin, dan penyedia udara bertekanan untuk penggerak silinder pneumatik pada lini produksi.',
-		applications: ['Ventilasi & Exhaust Panas Pabrik', 'Suplai Udara Pneumatik Mesin', 'Pengolahan Udara Bersih & Debu', 'Sistem Pompa & Perpipaan'],
-		items: ['Industrial Centrifugal & Axial Fan', 'Kompresor Udara & Air Dryer', 'Solenoid Valve & Silinder Pneumatik', 'Regulator & Filter Udara (FRL)'],
+			'Perlengkapan pengolahan udara ruang pabrik dan sistem fluida bertekanan. Membantu sirkulasi udara di area proses, pembuangan hawa panas mesin, serta penyediaan udara kering untuk instrumen pneumatik.',
+		applications: [
+			'Sistem Pembuangan Hawa Panas & Uap Kimia Mesin',
+			'Ventilasi Ruang Panel Listrik & Ruang Trafo',
+			'Suplai Udara Bertekanan untuk Mesin Pabrik',
+			'Sistem Perpipaan Air Pendingin Chiller & Cooling Tower'
+		],
+		items: [
+			'Blower Sentrifugal & Axial Fan Heavy-Duty',
+			'Roof Ventilator & Wall Exhaust Fan Pabrik',
+			'Screw & Piston Air Compressor + Refrigerated Air Dryer',
+			'FRL Unit (Filter, Regulator, Lubricator) Udara Tekan',
+			'Solenoid Valve, Air Cylinder & Selang PU Industri'
+		],
 		iconName: 'fluid'
 	},
 	{
@@ -112,11 +200,22 @@ export const productCategories: ProductCategory[] = [
 		name: 'Tools & Machinery',
 		brand: 'Industrial Tools & Equipment',
 		image: '/products/tools-machinery.jpg',
-		shortDesc: 'Perkakas mekanikal torsi tinggi, mesin potong, bubut, dan alat kalibrasi.',
+		shortDesc: 'Perkakas mekanikal bengkel, mesin kerja pabrik, dan alat ukur teknis.',
 		description:
-			'Perlengkapan kerja harian untuk tim maintenance (pemeliharaan) dan teknisi lapangan. Material baja perkakas tahan banting untuk bongkar pasang mesin pabrik berat.',
-		applications: ['Divisi Maintenance & Workshop', 'Fabrikasi Mesin & Modifikasi', 'Instalasi Lapangan Kontraktor', 'Inspeksi & Kalibrasi'],
-		items: ['Heavy-Duty Impact Wrench & Kunci Pas', 'Kunci Torsi Presisi (Torque Wrench)', 'Mesin Potong & Gerinda Duduk', 'Alat Ukur & Multitester Industri'],
+			'Peralatan kerja pemeliharaan (maintenance) untuk mekanik dan teknisi pabrik. Material baja perkakas paduan berkualitas tinggi yang tahan hentakan dan torsi berat pada pekerjaan perbaikan rutin.',
+		applications: [
+			'Divisi Maintenance, Repair & Operations (MRO) Pabrik',
+			'Bengkel Bubut & Fabrikasi Komponen Mesin',
+			'Pekerjaan Lapangan Kontraktor Mekanikal Elektrikal',
+			'Pemeriksaan Kalibrasi & Preventive Maintenance'
+		],
+		items: [
+			'Pneumatic & Battery Impact Wrench Heavy-Duty',
+			'Kunci Momen Torsi Presisi (Torque Wrench)',
+			'Mesin Bor Duduk, Gerinda Industri & Gergaji Pita Logam',
+			'Tang Crimping Hidrolik untuk Skun Kabel Panel Besar',
+			'Alat Ukur Teknis: Multitester Digital, Megger Insulation Tester, Clamp Meter'
+		],
 		iconName: 'tools'
 	},
 	{
@@ -124,11 +223,22 @@ export const productCategories: ProductCategory[] = [
 		name: 'Industrial Flooring',
 		brand: 'Heavy-Duty Industrial Grade',
 		image: '/products/flooring.jpg',
-		shortDesc: 'Pelapis lantai epoxy heavy-duty, polyurethane screed, dan anti-static (ESD).',
+		shortDesc: 'Cat pelapis lantai epoxy pabrik, polyurethane screed, dan anti-static (ESD).',
 		description:
-			'Lantai kerja pabrik tahan gesekan roda forklift, kedap tumpahan oli dan bahan kimia, serta mudah dibersihkan. Memenuhi standar kebersihan industri makanan, minuman, dan farmasi.',
-		applications: ['Lantai Gudang Lalu Lintas Forklift', 'Area Bersih Pabrik Makanan & Minuman', 'Pabrik Elektronik (Anti-Static ESD)', 'Bengkel Otomotif & Workshop'],
-		items: ['Self-Leveling Epoxy Floor Coating', 'Heavy-Duty Polyurethane (PU) Screed', 'Cat Garis Marka Keselamatan (Line Marking)', 'Primer & Sealant Sambungan Beton'],
+			'Material pelapis permukaan lantai beton khusus area pabrik dan pergudangan. Tahan lalu lintas forklift beban tinggi, tidak berdebu, kedap oli, dan mudah dibersihkan sesuai standar kebersihan industri.',
+		applications: [
+			'Lantai Pergudangan & Jalur Lalu Lintas Forklift',
+			'Lantai Ruang Produksi Makanan, Minuman & Farmasi (HACCP/GMP)',
+			'Lantai Area Perakitan Komponen Elektronik (Anti-Static ESD)',
+			'Bengkel Otomotif, Workshop Mesin & Ruang Genset'
+		],
+		items: [
+			'Self-Leveling Epoxy Floor Coating (Ketebalan 1000–3000 mikron)',
+			'Heavy-Duty Polyurethane (PU) Screed Tahan Suhu Dingin & Panas',
+			'Cat Marka Jalur Forklift & Garis Keselamatan Kerja (Safety Line)',
+			'Primer Khusus Lantai Lembap & Sealant Expansion Joint Beton',
+			'Top Coat Anti-Gores Polyurethane Clear'
+		],
 		iconName: 'flooring'
 	}
 ];

@@ -4,34 +4,42 @@
 
 	const faqs = [
 		{
-			q: 'Bagaimana alur permintaan penawaran resmi (Official Quotation)?',
-			a: 'Anda dapat mengirimkan daftar kebutuhan (Bill of Quantities / BoQ) atau part number spesifik melalui formulir kontak atau langsung email ke sales@sahabatindo.com. Tim sales engineering kami akan menerbitkan dokumen quotation resmi lengkap dengan spesifikasi, ketersediaan stok, dan estimasi waktu pengiriman dalam 1x24 jam kerja.'
+			q: 'Bagaimana alur permintaan penawaran harga resmi (Official Quotation)?',
+			a: 'Kirimkan daftar kebutuhan (Bill of Quantities / BoQ) atau part number yang Anda cari melalui formulir kontak ini atau langsung ke email sales@sahabatindo.com. Tim sales engineering kami akan memeriksa ketersediaan stok aktual di gudang dan menerbitkan surat penawaran harga resmi dalam 1x24 jam kerja.'
 		},
 		{
-			q: 'Apakah melayani pengiriman ke luar Jabodetabek dan seluruh Indonesia?',
-			a: 'Ya. Kompleks pergudangan kami di Muara Karang, Jakarta didukung oleh jaringan ekspedisi darat, laut, dan udara tepercaya yang secara reguler mengirimkan kargo material industri ke berbagai kawasan industri di Jawa, Sumatera, Kalimantan, Sulawesi, hingga Papua.'
+			q: 'Apakah seluruh transaksi diterbitkan Faktur Pajak resmi (e-Faktur PPN)?',
+			a: 'Ya. PT Sahabat Indonesia Inti Mandiri adalah entitas Pengusaha Kena Pajak (PKP). Seluruh transaksi penjualan resmi disertai e-Faktur PPN 11%, Surat Jalan asli, dan kwitansi/invoice resmi untuk keperluan administrasi dan audit perpajakan perusahaan Anda.'
 		},
 		{
-			q: 'Apakah transaksi disertai Faktur Pajak resmi dan dokumen kelengkapan barang?',
-			a: 'Sebagai entitas Perseroan Terbatas (PT) Pengusaha Kena Pajak (PKP), seluruh transaksi kami secara sah diterbitkan Faktur Pajak elektronik (e-Faktur), surat jalan resmi, dan dokumen Certificate of Origin (COO) / Manufacturer Warranty apabila dipersyaratkan oleh pabrik Anda.'
+			q: 'Apakah barang pesanan dapat diambil sendiri (Self Pick-up) di Gudang Muara Karang?',
+			a: 'Bisa. Setelah pesanan diverifikasi dan dokumen Delivery Order (DO) / Surat Jalan terbit, armada atau kurir perusahaan Anda dapat langsung mengambil barang di fasilitas pergudangan kami di Kawasan Industri Muara Karang Selatan Blok A Utara No. 1, Jakarta Utara pada hari kerja (Senin – Jumat, 08:30 – 17:00 WIB).'
 		},
 		{
-			q: 'Apakah tersedia layanan konsultasi teknis jika kode produk lama sudah discontinue?',
-			a: 'Tentu. Tim teknis kami memiliki database referensi silang (cross-reference) untuk membantu mengidentifikasi seri pengganti modern yang kompatibel secara dimensi dan kapasitas beban tanpa perlu merombak keseluruhan panel sistem Anda.'
+			q: 'Bagaimana opsi pengiriman ke kawasan industri luar kota dan antarpulau?',
+			a: 'Untuk area Jabodetabek (Cikarang, Karawang, Cilegon, Tangerang, dll), kami melayani pengiriman armada reguler. Untuk luar kota dan luar pulau (Sumatera, Kalimantan, Sulawesi, hingga Papua), barang dikirimkan melalui ekspedisi kargo rekanan tepercaya atau ekspedisi langganan yang ditunjuk oleh perusahaan Anda.'
+		},
+		{
+			q: 'Apakah tersedia fasilitas Term of Payment (TOP) untuk pengadaan korporat?',
+			a: 'Untuk transaksi perdana berlaku pembayaran tunai / transfer sebelum barang diambil atau dikirim (CBD). Bagi perusahaan rekanan berkontrak atau perakit panel yang melakukan pemesanan rutin, kami menyediakan fasilitas tempo pembayaran (TOP 14 hingga 30 hari) setelah proses verifikasi data legalitas dan persetujuan credit limit.'
+		},
+		{
+			q: 'Bagaimana jika part number yang kami butuhkan sudah discontinue dari pabrikan?',
+			a: 'Tim teknis kami memiliki database referensi silang (cross-reference) prinsipal. Kami dapat membantu merekomendasikan seri pengganti modern yang kompatibel secara dimensi fisik, dudukan mounting, dan kapasitas rating daya sehingga tidak memerlukan perombakan total pada panel Anda.'
 		}
 	];
 </script>
 
 <svelte:head>
-	<title>Kontak & Lokasi Head Office — PT Sahabat Indonesia Inti Mandiri</title>
+	<title>Hubungi Kami & Lokasi Gudang — PT Sahabat Indonesia Inti Mandiri</title>
 	<meta
 		name="description"
-		content="Hubungi Head Office & Pergudangan PT Sahabat Indonesia Inti Mandiri di Muara Karang Jakarta. Telepon: 021 6610651, Fax: 021 6603700, Email: sales@sahabatindo.com."
+		content="Hubungi kantor pusat dan kompleks pergudangan PT Sahabat Indonesia Inti Mandiri di Muara Karang Selatan Blok A Utara No. 1, Jakarta Utara. Telepon: 021 6610651, Email: sales@sahabatindo.com."
 	/>
 	<meta property="og:title" content="Kontak PT Sahabat Indonesia Inti Mandiri" />
 	<meta
 		property="og:description"
-		content="Konsultasikan kebutuhan komponen industri Anda dengan tim sales engineering PT Sahabat Indonesia Inti Mandiri."
+		content="Konsultasikan kebutuhan komponen industri Anda dengan tim sales engineering PT Sahabat Indonesia Inti Mandiri. Pengadaan resmi breaker, PLC, konduit, hoist, dan alat pabrik."
 	/>
 	<link rel="canonical" href="https://sahabatindo.com/contact" />
 </svelte:head>
@@ -41,11 +49,10 @@
 		<div class="max-w-3xl" use:scrollReveal>
 			<p class="section-label mb-4">Pusat Layanan & Kantor</p>
 			<h1 class="text-dark mb-6 text-4xl leading-tight md:text-5xl lg:text-6xl font-display">
-				Hubungi Tim Sales Engineering Kami
+				Hubungi Tim Sales Engineering & Pergudangan
 			</h1>
 			<p class="text-mid text-lg leading-relaxed md:text-xl">
-				Konsultasikan kebutuhan spesifikasi teknis, pengecekan stok aktual di gudang, atau kirimkan
-				daftar BoQ proyek Anda untuk mendapatkan penawaran harga resmi dalam 1x24 jam kerja.
+				Untuk pengecekan ketersediaan stok fisik, konsultasi spesifikasi teknis, atau permintaan penawaran harga resmi (official quotation), silakan hubungi tim kami atau kirimkan daftar BoQ Anda.
 			</p>
 		</div>
 	</div>

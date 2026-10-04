@@ -35,7 +35,7 @@
 			class:opacity-0={!loaded}
 			style="transition-delay: 200ms;"
 		>
-			HEAD OFFICE & PERGUDANGAN MUARA KARANG, JAKARTA — SEJAK 1976
+			DISTRIBUTOR & SUPPLIER KOMPONEN INDUSTRI — SEJAK 1976
 		</p>
 
 		<!-- Headline — serif font per design.md P0 #4 -->
@@ -47,7 +47,7 @@
 			class:translate-y-8={!loaded}
 			style="transition-delay: 400ms;"
 		>
-			Solusi Pasokan Elektrikal & Mekanikal Pabrik Anda
+			Distributor Resmi Komponen Listrik, Otomasi & Peralatan Pabrik
 		</h1>
 
 		<!-- Subtitle -->
@@ -59,8 +59,7 @@
 			class:translate-y-6={!loaded}
 			style="transition-delay: 600ms;"
 		>
-			Pasokan resmi breaker, otomasi PLC, konduit kabel, hoist, hingga penerangan industri.
-			100% suku cadang original bergaransi prinsipal, siap kirim dari gudang Jakarta.
+			Menyediakan pemutus arus (breaker), PLC & inverter, pipa konduit baja, chain hoist, hingga penerangan industri. 100% produk original bergaransi prinsipal dengan stok siap kirim dari pergudangan Muara Karang, Jakarta.
 		</p>
 
 		<!-- CTAs -->
@@ -82,7 +81,7 @@
 				href="/contact"
 				class="rounded border border-white/30 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:border-white hover:bg-white/10"
 			>
-				Minta Penawaran Harga
+				Minta Penawaran (Quotation)
 			</a>
 		</div>
 	</div>

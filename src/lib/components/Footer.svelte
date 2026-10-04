@@ -19,8 +19,7 @@
 					<Logo inverted={true} />
 				</div>
 				<p class="text-mid text-sm leading-relaxed">
-					Distributor resmi suku cadang dan komponen industri sejak 1976. Satu pintu pengadaan
-					terpadu untuk efisiensi fasilitas pabrik Anda.
+					Distributor resmi komponen elektrikal, mekanikal, dan otomasi industri sejak 1976. Melayani kebutuhan pengadaan pabrik manufaktur, panel maker, dan kontraktor ME di seluruh Indonesia.
 				</p>
 			</div>
 

@@ -6,51 +6,51 @@
 		{
 			year: '1976',
 			title: 'Pendirian Usaha di Jakarta',
-			desc: 'Memulai operasional sebagai supplier komponen kelistrikan dan suku cadang mekanikal untuk industri manufaktur lokal di kawasan Jakarta dan sekitarnya.'
+			desc: 'Memulai kegiatan perdagangan umum dan supplier komponen kelistrikan serta suku cadang mekanikal untuk industri lokal di Jakarta.'
 		},
 		{
 			year: '1988',
-			title: 'Distribusi Resmi Brand Jepang & Global',
-			desc: 'Ditunjuk sebagai distributor resmi sejumlah prinsipal global terkemuka, memperluas pasokan komponen presisi Mitsubishi Electric, Panasonic, dan Iwasaki EYE.'
+			title: 'Keagenan Resmi Brand Global',
+			desc: 'Ditunjuk sebagai penyalur resmi produk manufaktur terkemuka seperti Mitsubishi Electric, Panasonic, dan Iwasaki EYE.'
 		},
 		{
 			year: '2002',
-			title: 'Kompleks Pergudangan Muara Karang',
-			desc: 'Memusatkan operasional kantor dan fasilitas pergudangan terpadu di Kawasan Industri Pergudangan Muara Karang Jakarta guna mempercepat handling dan pengiriman material.'
+			title: 'Fasilitas Pergudangan Muara Karang',
+			desc: 'Memusatkan seluruh logistik dan kantor pusat di Kawasan Industri Pergudangan Muara Karang Selatan Jakarta guna memperbesar kapasitas stok dan mempercepat proses pengiriman.'
 		},
 		{
 			year: '2015',
-			title: 'Kelengkapan 10 Lini Kategori Industri',
-			desc: 'Melengkapi katalog pengadaan satu atap: mulai dari power distribution, otomasi pabrik, hoist alat angkat, hingga sistem proteksi lantai pabrik.'
+			title: 'Ekspansi Menjadi 10 Kategori Industri',
+			desc: 'Melengkapi portofolio pasokan satu pintu: mulai dari power distribution, otomasi pabrik, pipa konduit, hoist, hingga sistem pelapis lantai industri.'
 		},
 		{
 			year: '2026',
-			title: '50 Tahun Rekanan Industri Nasional',
-			desc: 'Didukung oleh 200+ staf logistik, teknis, dan sales yang melayani ribuan kontrak pengadaan pabrik manufaktur dan kontraktor ME di seluruh Indonesia.'
+			title: '50 Tahun Melayani Industri Nasional',
+			desc: 'Didukung lebih dari 200 staf dan jaringan rekanan logistik tepercaya yang melayani ribuan kontrak pengadaan di berbagai sektor manufaktur Indonesia.'
 		}
 	];
 
 	const values = [
 		{
-			title: '100% Produk Original Bergaransi',
-			desc: 'Seluruh komponen dipasok langsung dari jalur distribusi resmi dengan sertifikat keaslian pabrik (COO/Test Report), mencegah risiko barang tiruan di fasilitas Anda.'
+			title: '100% Produk Asli & Legalitas Resmi',
+			desc: 'Seluruh produk bersumber langsung dari rantai pasok prinsipal terdaftar, lengkap dengan garansi resmi dan opsi dokumen sertifikasi (COO) untuk tertib audit perusahaan.'
 		},
 		{
-			title: 'Efisiensi Administrasi (One PO)',
-			desc: 'Satu pintu untuk ragam kebutuhan elektrikal dan mekanikal. Memangkas biaya overhead pencarian supplier dan menyederhanakan proses invoice perpajakan.'
+			title: 'Efisiensi Satu Rekanan (One-Stop Supply)',
+			desc: 'Menggabungkan kebutuhan elektrikal, instrumen otomasi, dan mekanikal ke dalam satu Purchase Order (PO) sehingga menghemat waktu dan mempermudah administrasi tim purchasing.'
 		},
 		{
-			title: 'Dukungan Teknis & Cross-Reference',
-			desc: 'Bantuan verifikasi part number, rekomendasi tipe ekuivalen untuk model yang sudah discontinue, dan kepastian spesifikasi teknis sesuai standar pabrik Anda.'
+			title: 'Dukungan Teknis & Kesesuaian Part Number',
+			desc: 'Asistensi pemilihan spesifikasi, pengecekan kesesuaian part number, hingga rekomendasi tipe ekuivalen untuk komponen yang sudah tidak diproduksi lagi (discontinue).'
 		}
 	];
 </script>
 
 <svelte:head>
-	<title>Tentang Kami — PT Sahabat Indonesia Inti Mandiri</title>
+	<title>Tentang Kami — PT Sahabat Indonesia Inti Mandiri | Sejarah & Profil Perusahaan</title>
 	<meta
 		name="description"
-		content="Profil 50 tahun PT Sahabat Indonesia Inti Mandiri sebagai distributor resmi suku cadang dan komponen industri di Indonesia. 200+ staf, 10 kategori produk."
+		content="Profil PT Sahabat Indonesia Inti Mandiri. Distributor resmi komponen elektrikal, mekanikal, dan otomasi industri di Jakarta sejak 1976. 200+ staf operasional dan fasilitas pergudangan di Muara Karang."
 	/>
 	<meta property="og:title" content="Tentang PT Sahabat Indonesia Inti Mandiri" />
 	<meta
@@ -66,13 +66,10 @@
 		<div class="max-w-3xl" use:scrollReveal>
 			<p class="section-label mb-4">Profil Perusahaan</p>
 			<h1 class="text-dark mb-6 text-4xl leading-tight md:text-5xl lg:text-6xl font-display">
-				50 Tahun Distributor Komponen Elektrikal & Mekanikal Industri
+				50 Tahun Distributor Komponen Elektrikal, Mekanikal & Otomasi Pabrik
 			</h1>
 			<p class="text-mid text-lg leading-relaxed md:text-xl">
-				Sejak didirikan pada tahun 1976 di Jakarta, PT Sahabat Indonesia Inti Mandiri menjadi mitra
-				pengadaan terpercaya bagi pabrik manufaktur, kontraktor mekanikal-elektrikal, dan panel maker.
-				Dengan stok terkelola di Muara Karang, kami memastikan rantai pasok komponen fasilitas Anda
-				berjalan tanpa hambatan.
+				Didirikan pada tahun 1976 di Jakarta, PT Sahabat Indonesia Inti Mandiri telah berkembang menjadi mitra pengadaan bagi berbagai pabrik manufaktur, perakit panel listrik, dan kontraktor ME di seluruh Indonesia. Berpusat di Kompleks Pergudangan Muara Karang Jakarta, kami menjaga ketersediaan stok fisik untuk memastikan kelancaran operasional dan pemeliharaan fasilitas pelanggan kami.
 			</p>
 		</div>
 	</div>
@@ -92,25 +89,25 @@
 			<div class="text-center lg:text-left" use:scrollReveal={{ delay: 200 }}>
 				<StatCounter target={200} suffix="+" />
 				<p class="text-mid mt-2 text-xs font-semibold tracking-wider uppercase md:text-sm">
-					Karyawan & Tenaga Ahli
+					Karyawan & Tim Kerja
 				</p>
 				<p class="text-mid mt-1 text-xs">Staf logistik, sales & teknikal</p>
 			</div>
 			<div class="text-center lg:text-left" use:scrollReveal={{ delay: 300 }}>
 				<StatCounter target={10} />
 				<p class="text-mid mt-2 text-xs font-semibold tracking-wider uppercase md:text-sm">
-					Lini Kategori Produk
+					Lini Kategori Industri
 				</p>
 				<p class="text-mid mt-1 text-xs">Pasokan elektrikal & mekanikal lengkap</p>
 			</div>
 			<div class="text-center lg:text-left" use:scrollReveal={{ delay: 400 }}>
 				<div class="font-mono text-5xl font-bold tabular-nums text-dark md:text-6xl">
-					1 Pintu
+					1 Rekanan
 				</div>
 				<p class="text-mid mt-2 text-xs font-semibold tracking-wider uppercase md:text-sm">
 					One-Stop Solution
 				</p>
-				<p class="text-mid mt-1 text-xs">Satu PO untuk multi-kategori barang</p>
+				<p class="text-mid mt-1 text-xs">Satu PO untuk aneka kebutuhan pabrik</p>
 			</div>
 		</div>
 	</div>
@@ -122,19 +119,15 @@
 		<div class="grid items-start gap-16 lg:grid-cols-12">
 			<!-- Narrative left (7 cols) -->
 			<div class="space-y-6 lg:col-span-7" use:scrollReveal>
-				<p class="section-label">Komitmen Pasokan</p>
+				<p class="section-label">Fasilitas & Pasokan</p>
 				<h2 class="text-dark text-3xl leading-snug md:text-4xl font-display">
-					Memastikan Fasilitas Produksi Anda Beroperasi Tanpa Downtime
+					Kesiapan Stok Fisik di Kompleks Pergudangan Muara Karang
 				</h2>
 				<p class="text-mid text-base leading-relaxed md:text-lg">
-					Bagi sebuah pabrik manufaktur, keterlambatan suku cadang atau kerusakan mendadak pada panel
-					listrik dapat menghentikan seluruh lini produksi dan menimbulkan kerugian besar. Karena itu,
-					fokus utama PT Sahabat Indonesia Inti Mandiri adalah kecepatan respon dan ketersediaan barang.
+					Bagi fasilitas industri manufaktur, ketersediaan suku cadang pengganti yang tepat waktu sangat krusial untuk mencegah berhentinya lini produksi. Keterlambatan pasokan komponen panel atau kegagalan peralatan mekanikal dapat memicu kerugian operasional yang tidak sedikit.
 				</p>
 				<p class="text-mid text-base leading-relaxed md:text-lg">
-					Melalui fasilitas pergudangan di Muara Karang Jakarta, kami menjaga buffer stok untuk berbagai
-					komponen penting: dari circuit breaker berdaya besar, PLC dan inverter otomasi, pipa konduit
-					pelindung kabel, unit hoist angkat berat, hingga pelapis lantai epoxy pabrik.
+					Untuk mengantisipasi hal tersebut, PT Sahabat Indonesia Inti Mandiri memusatkan operasional dan buffer stock di Muara Karang Selatan Blok A Utara No. 1, Jakarta Utara. Dari fasilitas ini, kami secara rutin mendistribusikan kebutuhan komponen ke berbagai kawasan industri utama seperti Cikarang, Karawang, Cilegon, Surabaya, hingga pengiriman kargo antarpulau.
 				</p>
 			</div>
 
@@ -142,7 +135,7 @@
 			<div class="lg:col-span-5" use:scrollReveal={{ delay: 200 }}>
 				<div class="bg-dark p-8 text-white md:p-10">
 					<p class="text-accent mb-6 font-mono text-xs font-bold tracking-widest uppercase">
-						Filosofi Manajemen
+						Filosofi Perusahaan
 					</p>
 					<blockquote class="border-accent/40 border-l-2 pl-6 italic">
 						<p class="text-xl leading-relaxed md:text-2xl font-display">
@@ -151,8 +144,7 @@
 						</p>
 					</blockquote>
 					<p class="text-light mt-6 text-sm leading-relaxed">
-						Prinsip kerja yang diwariskan pendiri perusahaan: dedikasi seluruh tim untuk terus
-						memberikan layanan terbaik, mengatasi setiap kendala pengadaan pelanggan dengan kerja nyata.
+						Prinsip pendiri yang senantiasa memotivasi seluruh staf operasional dan teknis kami untuk memberikan komitmen penuh dan solusi nyata dalam setiap pengadaan pelanggan.
 					</p>
 				</div>
 			</div>
@@ -178,8 +170,7 @@
 					"To give customers a one stop shop solution providing high quality products."
 				</p>
 				<p class="text-mid text-base leading-relaxed">
-					Menjadi pusat rujukan utama dan distributor terlengkap di Indonesia bagi seluruh pengadaan
-					peralatan kelistrikan, otomatisasi, dan mekanikal pabrik dengan standar kualitas original.
+					Menjadi pusat distribusi terpadu di Indonesia yang menyediakan produk suku cadang dan peralatan industri berkualitas tinggi dari prinsipal resmi.
 				</p>
 			</div>
 
@@ -192,8 +183,7 @@
 					"Ensuring the best service and convenience for our customers."
 				</p>
 				<p class="text-mid text-base leading-relaxed">
-					Menghadirkan kenyamanan transaksi melalui penawaran harga cepat, kepastian jadwal kirim,
-					dokumen legalitas lengkap, dan asistensi teknis yang solutif.
+					Memberikan kemudahan bagi pelanggan melalui respon penawaran harga yang cepat, kepastian stok aktual, tertib administrasi perpajakan, dan ketepatan waktu pengiriman.
 				</p>
 			</div>
 		</div>
@@ -207,8 +197,7 @@
 			<p class="section-label mb-4">Linimasa 5 Dekade</p>
 			<h2 class="text-dark text-3xl md:text-4xl font-display">Jejak Pertumbuhan Sejak 1976</h2>
 			<p class="text-mid mt-4 text-base leading-relaxed">
-				Tahapan perkembangan dan ekspansi jaringan distribusi PT Sahabat Indonesia Inti Mandiri dalam
-				melayani kebutuhan industri nasional.
+				Tahapan perkembangan dan ekspansi jaringan distribusi PT Sahabat Indonesia Inti Mandiri dalam melayani kebutuhan industri nasional.
 			</p>
 		</div>
 
@@ -240,7 +229,7 @@
 	<div class="container-wide">
 		<div class="mb-16 text-center" use:scrollReveal>
 			<p class="section-label mb-4">Nilai Kemitraan</p>
-			<h2 class="text-dark text-3xl md:text-4xl font-display">Mengapa Klien Memilih Kami</h2>
+			<h2 class="text-dark text-3xl md:text-4xl font-display">Mengapa Memilih Kami Sebagai Rekanan</h2>
 		</div>
 
 		<div class="grid gap-8 md:grid-cols-3">
@@ -264,11 +253,10 @@
 <section class="section-padding bg-surface-alt" data-od-id="about-cta">
 	<div class="container-wide text-center" use:scrollReveal>
 		<h2 class="text-dark mb-4 text-3xl md:text-4xl font-display">
-			Mulai Konsultasi Pengadaan Pabrik Anda
+			Konsultasikan Kebutuhan Pengadaan Pabrik Anda
 		</h2>
 		<p class="text-mid mx-auto mb-8 max-w-xl text-lg">
-			Hubungi staf sales engineering kami untuk mengecek ketersediaan stok, diskon volume proyek, atau
-			permintaan jadwal pengiriman berkala.
+			Hubungi tim sales engineering kami untuk pengecekan stok aktual, penawaran harga resmi (quotation), atau jadwal pengiriman berkala proyek Anda.
 		</p>
 		<div class="flex flex-wrap items-center justify-center gap-4">
 			<a
